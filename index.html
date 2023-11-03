@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <h1 id="level-title">Press Any Key to Start</h1>
+  <button class="Ins_button" id="ins_btn">Instructions</button>
+  <div class="container1">
+    <ol class="Instructions"> 
+     <strong id="ins_heading"> Game rules </strong> 
+
+ <li  id="ins"> At the start, Simon's game will randomly give you a signal ( one color will pop up).</li> 
+
+ <li id="ins"> You have to repeat the signal by pressing the same color. </li> 
+
+ <li id="ins"> Simon will duplicate the first signal and add a random one. </li> 
+
+ <li id="ins"> You need to repeat these two signals by pressing the same color lenses, in the order. </li> 
+
+ <li id="ins"> Simon will duplicate these first two signals and add one. </li> 
+
+ <li id="ins"> You need to repeat these three signals in the order. </li> 
+ <li  id="ins"> Simon will repeat all three signals and add one. </li> 
+
+ <li id="ins"> Continue playing as long as you can repeat the sequence. </li> 
+
+ <li id="ins"> After the 5th, 9th and 13th signals in a sequence, Simon will automatically speed up. That means you need to add Skill levels. </li> 
+
+ <li id="ins"> If you fail to repeat a sequence exactly, or if you take more then 5 seconds to repeat a signal, Simon responds with a "REZZ" sound.  That means you've lost, and the sequence of signals ends. GAME OVER. </li> 
+    </ol>
+  </div>
+  <div class="container">
+    <div lass="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+    </div>
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="index.js"></script>
+</body>
+
+</html>
